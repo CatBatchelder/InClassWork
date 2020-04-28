@@ -8,7 +8,7 @@
     grid-template-areas: ". section-2 .";
 
     @include xl{
-        grid-template-columns: auto 1200 px auto;
+        grid-template-columns: auto 1200px auto;
     }
 
     #section-2-content{
@@ -21,16 +21,11 @@
                 grid-template-areas: ". section-2-intro .";
 
             @include lg{
-                display: grid;
                 grid-template-columns: 20% auto 20%;
-                grid-template-areas: ". section-2-intro .";
             }
 
                 #section-2-intro-content{
                     @include md{ 
-                        grid-area: section-2-intro;
-                    }
-                    @include lg{ 
                         grid-area: section-2-intro;
                     }
                 }
@@ -66,10 +61,6 @@
 
                 #section-2-date-content{
                     @include md{ 
-                        grid-area: section-2-date;
-                    }
-
-                    @include lg{ 
                         grid-area: section-2-date;
                     }
                 }
