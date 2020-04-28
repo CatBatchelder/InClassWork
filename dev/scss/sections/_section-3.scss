@@ -7,7 +7,18 @@
         img{
             width: 100%;
         }
+        // @include lg{
+        //     img{
+        //         width: 50%;
+        //     }
+        // }
     }
+ @include lg{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    "aside section-3-container";
+ }
 
     #section-3-container{
         display: grid;
