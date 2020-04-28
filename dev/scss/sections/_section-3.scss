@@ -3,34 +3,39 @@
 ============= */
 
 #section-3{
-    aside{
-        img{
-            width: 100%;
-        }
-        // @include lg{
-        //     img{
-        //         width: 50%;
-        //     }
-        // }
+
+    @include xl{
+        display: grid
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". section-3-desktop .";
     }
- @include lg{
-    display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-areas: 
-    "aside section-3-container";
- }
 
-    #section-3-container{
-        display: grid;
-        grid-template-columns: 15px auto 15px;
-        grid-template-areas: ". section-3 .";
-
-        @include md{
-            grid-template-columns: 8% auto 8%;
+    #section-3-desktop{
+        aside{
+            img{
+                width: 100%;
+            }
         }
-
-        #section-3-content{
-            grid-area: section-3;
+     @include lg{
+         grid-area: section-3-desktop;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-areas: 
+        "aside section-3-container";
+     }
+    
+        #section-3-container{
+            display: grid;
+            grid-template-columns: 15px auto 15px;
+            grid-template-areas: ". section-3 .";
+    
+            @include md{
+                grid-template-columns: 8% auto 8%;
+            }
+    
+            #section-3-content{
+                grid-area: section-3;
+            }
         }
     }
 }
