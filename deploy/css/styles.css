@@ -381,9 +381,20 @@ footer {
 /* =============
     section-1
 ============= */
-#section-1 img {
-  width: 100%; }
-
+#section-1 {
+  background-image: url("../img/section-1/hero2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 360px; }
+  @media (min-width: 768px) {
+    #section-1 {
+      height: 450px; } }
+  @media (min-width: 992px) {
+    #section-1 {
+      height: 650px; } }
+  @media (min-width: 1200px) {
+    #section-1 {
+      height: 850px; } }
 /* =============
     section-2
 ============= */
@@ -435,9 +446,16 @@ footer {
     grid-template-columns: auto 1200px auto;
     grid-template-areas: ". section-3-dekstop ."; } }
 
-#section-3 #section-3-desktop aside img {
-  width: 100%; }
-
+#section-3 #section-3-desktop aside {
+  background-image: url("../img/section-3/grid-bot.jpg");
+  background-size: cover;
+  height: 370px; }
+  @media (min-width: 768px) {
+    #section-3 #section-3-desktop aside {
+      height: 470px; } }
+  @media (min-width: 992px) {
+    #section-3 #section-3-desktop aside {
+      height: 600px; } }
 @media (min-width: 992px) {
   #section-3 #section-3-desktop {
     grid-area: section-3-desktop;
