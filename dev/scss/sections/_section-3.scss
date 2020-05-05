@@ -13,6 +13,7 @@
         aside{
             background-image: url('../img/section-3/grid-bot.jpg');
             background-size: cover;
+            background-position: center;
             height: 370px;
 
             @include md{
@@ -21,6 +22,7 @@
 
             @include lg{
                 height: 600px;
+                background-position: -275px, 0px;
             }
         }
      @include lg{

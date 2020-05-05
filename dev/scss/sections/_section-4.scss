@@ -3,7 +3,22 @@
 ============= */
 
 #section-4{
-    img{
-        width: 100%;
+    background-image: url('../img/section-4/hero2.jpg');
+    background-size: cover;
+    background-position: -150, 0;
+    height: 45vh;
+
+    @include md{
+        height: 90vh;
+        background-position: -200, 0;
+    }
+
+    @include lg{
+        background-position: center;
+         height: 650px;
+    }
+
+    @include xl{
+        height: 70vh;
     }
 }
