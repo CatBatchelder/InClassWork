@@ -1,9 +1,9 @@
-/* =============
-    section-3
-============= */
+// /* =============
+//     section-3
+// ============= */
+
 #section-3{
-
-
+    // border: 1px solid green;
 
     @include xl{
         display: grid;
@@ -12,12 +12,13 @@
     }
 
     #section-3-desktop{
-        @include xl{
-            grid-area: section-3-desktop;
-            display: grid;
-            grid-template-columns: 40% 60%;
-         }
 
+        @include xl{
+            grid-area: section-3-dekstop;
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
+    
         aside{
             background-image: url("../img/section-3/grid-bot.jpg");
             background-size: cover;
@@ -33,8 +34,9 @@
             }
 
             @include xl{
-                background-position: -275px, 0px;
+                background-position: -265px 0px;
             }
+
         }
     
         #section-3-container{
@@ -42,12 +44,12 @@
             grid-template-columns: 15px auto 15px;
             grid-template-areas: ". section-3 .";
             background-color: $charcoal;
-            color: white;
+            color: $white;
     
             @include md{
                 grid-template-columns: 8% auto 8%;
             }
-    
+                
             #section-3-content{
                 grid-area: section-3;
             }

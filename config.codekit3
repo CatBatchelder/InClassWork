@@ -84,10 +84,21 @@
 		},
 	"/deploy/img/section-3/grid-bot.jpg": {
 		"ft": 16384,
-		"iS": 76676,
+		"iS": 14509118,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/section-3/grid-bot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/section-4/Hero2.jpg": {
+		"ft": 16384,
+		"iS": 12406567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/Hero2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

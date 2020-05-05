@@ -6,10 +6,10 @@
     background-image: url('../img/section-1/hero2.jpg');
     background-size: cover;
     background-position: center;
-    height: 360px;
+    height: 45vh;
 
     @include md {
-        height: 450px;
+        height: 55vh;
     }
 
     @include lg {
@@ -17,6 +17,6 @@
     }
 
     @include xl {
-        height: 850px;
+        height: 50vh;
     }
 }

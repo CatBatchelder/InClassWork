@@ -394,16 +394,16 @@ footer {
   background-image: url("../img/section-1/hero2.jpg");
   background-size: cover;
   background-position: center;
-  height: 360px; }
+  height: 45vh; }
   @media (min-width: 768px) {
     #section-1 {
-      height: 450px; } }
+      height: 55vh; } }
   @media (min-width: 992px) {
     #section-1 {
       height: 650px; } }
   @media (min-width: 1200px) {
     #section-1 {
-      height: 850px; } }
+      height: 50vh; } }
 /* =============
     section-2
 ============= */
@@ -423,7 +423,7 @@ footer {
         grid-template-areas: ". section-2-intro ."; } }
     @media (min-width: 992px) {
       #section-2 #section-2-content #section-2-intro {
-        grid-template-columns: 20% auto 20%; } }
+        grid-template-columns: 18% auto 18%; } }
     #section-2 #section-2-content #section-2-intro #section-2-intro-content h1 {
       margin: 31px 0 33px;
       color: #F8C832; }
@@ -455,9 +455,6 @@ footer {
     @media (min-width: 768px) {
       #section-2 #section-2-date #section-2-date-content {
         grid-area: section-2-date; } }
-/* =============
-    section-3
-============= */
 @media (min-width: 1200px) {
   #section-3 {
     display: grid;
@@ -466,9 +463,9 @@ footer {
 
 @media (min-width: 1200px) {
   #section-3 #section-3-desktop {
-    grid-area: section-3-desktop;
+    grid-area: section-3-dekstop;
     display: grid;
-    grid-template-columns: 40% 60%; } }
+    grid-template-columns: 40% auto; } }
 
 #section-3 #section-3-desktop aside {
   background-image: url("../img/section-3/grid-bot.jpg");
@@ -483,13 +480,13 @@ footer {
       height: 600px; } }
   @media (min-width: 1200px) {
     #section-3 #section-3-desktop aside {
-      background-position: -275px, 0px; } }
+      background-position: -265px 0px; } }
 #section-3 #section-3-desktop #section-3-container {
   display: grid;
   grid-template-columns: 15px auto 15px;
   grid-template-areas: ". section-3 .";
   background-color: #222222;
-  color: white; }
+  color: #fff; }
   @media (min-width: 768px) {
     #section-3 #section-3-desktop #section-3-container {
       grid-template-columns: 8% auto 8%; } }
@@ -500,17 +497,17 @@ footer {
     section-4
 ============= */
 #section-4 {
-  background-image: url("../img/section-4/hero2.jpg");
+  background-image: url("../img/section-4/Hero2.jpg");
   background-size: cover;
-  background-position: -150, 0;
+  background-position: -100px, 0;
   height: 45vh; }
   @media (min-width: 768px) {
     #section-4 {
       height: 90vh;
-      background-position: -200, 0; } }
+      background-position: -400px, 0; } }
   @media (min-width: 992px) {
     #section-4 {
-      background-position: center;
+      background-position: center top;
       height: 650px; } }
   @media (min-width: 1200px) {
     #section-4 {
@@ -527,20 +524,20 @@ footer {
       grid-template-columns: auto 1200px auto; } }
   #section-5 ul {
     grid-area: section-5;
-    grid-template-rows: repeat(5, 235px);
+    grid-template-rows: repeat(5, 234px);
     display: grid;
     gap: 20px;
     grid-template-areas: "g7" "g1" "g1" "g6" "g3"; }
     @media (min-width: 768px) {
       #section-5 ul {
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: repeat(3, 277px);
+        grid-template-rows: repeat(3, 277px);
         grid-template-areas: "g1 g3" "g1 g7" "g5 g6"; } }
     @media (min-width: 992px) {
       #section-5 ul {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 270px);
-        grid-template-areas: "g1 g2 g3" "g1 g7 g4" "g6 g5 g4"; } }
+        grid-template-rows: repeat(3, 250px);
+        grid-template-areas: "g1 g3 g2" "g1 g7 g4" "g6 g5 g4"; } }
     #section-5 ul li {
       background-size: cover;
       background-position: center; }
@@ -549,7 +546,7 @@ footer {
       grid-area: g1; }
     #section-5 ul #g2 {
       background-image: url("../img/section-5/gallery-2.png"); }
-      @media (min-width: 992px) {
+      @media (min-width: 768px) {
         #section-5 ul #g2 {
           grid-area: g2; } }
     #section-5 ul #g3 {
@@ -569,5 +566,4 @@ footer {
       background-image: url("../img/section-5/gallery-6.png");
       grid-area: g6; }
     #section-5 ul #g7 {
-      background-image: url("../img/section-5/gallery-7.png");
       grid-area: g7; }
