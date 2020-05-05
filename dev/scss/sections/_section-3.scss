@@ -3,6 +3,8 @@
 ============= */
 #section-3{
 
+
+
     @include xl{
         display: grid;
         grid-template-columns: auto 1200px auto;
@@ -10,8 +12,14 @@
     }
 
     #section-3-desktop{
+        @include xl{
+            grid-area: section-3-desktop;
+            display: grid;
+            grid-template-columns: 40% 60%;
+         }
+
         aside{
-            background-image: url('../img/section-3/grid-bot.jpg');
+            background-image: url("../img/section-3/grid-bot.jpg");
             background-size: cover;
             background-position: center;
             height: 370px;
@@ -22,19 +30,19 @@
 
             @include lg{
                 height: 600px;
+            }
+
+            @include xl{
                 background-position: -275px, 0px;
             }
         }
-     @include lg{
-         grid-area: section-3-desktop;
-        display: grid;
-        grid-template-columns: 40% 60%;
-     }
     
         #section-3-container{
             display: grid;
             grid-template-columns: 15px auto 15px;
             grid-template-areas: ". section-3 .";
+            background-color: $charcoal;
+            color: white;
     
             @include md{
                 grid-template-columns: 8% auto 8%;
