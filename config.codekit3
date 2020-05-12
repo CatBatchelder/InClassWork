@@ -49,6 +49,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/header/logo.png": {
+		"ft": 32768,
+		"iS": 1708,
+		"oA": 0,
+		"oAP": "/deploy/img/header/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-1/hero.jpg": {
 		"ft": 16384,
 		"iS": 169204,

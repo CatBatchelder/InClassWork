@@ -342,6 +342,9 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0; }
 
+body {
+  font-family: 'Open Sans', sans-serif; }
+
 /* =============
     Buttons
 ============= */
@@ -427,6 +430,13 @@ footer {
     #section-2 #section-2-content #section-2-intro #section-2-intro-content h1 {
       margin: 31px 0 33px;
       color: #F8C832; }
+    #section-2 #section-2-content #section-2-intro #section-2-intro-content #section-2-hero > div {
+      background-image: url("..img/section-2/hero.png");
+      height: 113px;
+      width: 113px;
+      border-radius: 100%;
+      background-position: 209px 243px;
+      margin: 0 auto; }
     @media (min-width: 768px) {
       #section-2 #section-2-content #section-2-intro #section-2-intro-content {
         grid-area: section-2-intro; } }

@@ -32,6 +32,17 @@
                     color: $yellow;
                 }
 
+                #section-2-hero{
+                    >div{
+                        background-image: url("..img/section-2/hero.png");
+                        height: 113px;
+                        width: 113px;
+                        border-radius: 100%;
+                        background-position: 209px 243px;
+                        margin: 0 auto;
+                    }
+                }
+
                 @include md {
                     grid-area: section-2-intro;
                 }
